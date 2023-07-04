@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+    
+}
+
+header{
+    background-color: #c2caffea;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    grid-area: header;
+}
+/* main{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(4, 150px);
+    grid-area: main;
+} */
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+}
+header div img{
+    width: 70px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   
+}
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+    padding: 12px 0;
+    float: left;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+main div img{
+    height: 50px;
+    width: 60px;
+
+}
+.principal{
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: repeat(1, 200px);
+    justify-items: center;
+    align-items: center;
+}
+
+.caja1 {
+    background-color: #feacf7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+    /* margin-left: 210px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    border: 4px dotted purple;
+    border-radius: 10px;
+    overflow: auto;
+    /* float: left; */
+    
+    
+}
+.caja2 {
+    background-color: #feacf7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+    /* margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    border: 4px dotted purple;
+    border-radius: 10px;
+    overflow: auto;
+    /* float: left; */
+    
+}
+.caja3{
+    background-color: #feacf7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+    /* margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    border: 4px dotted purple;
+    border-radius: 10px;
+    overflow: auto;
+    /* float: left; */
+    
+   
+}
+
+.imagenYvideo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main div img{
+    height: 500px;
+    width: 800px;
+    margin: 40px;
+    /* margin-left: 350px; */
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.fondo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex-end;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url(../img/fondo.jpg);
+    background-position: 0%;   
+    /* background-repeat: no-repeat; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 60px;
+    padding: 40px;
+    height: 200px;
+    width: 100%;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    display: table;
+    margin-top: 50px;
+    background-color: aliceblue;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 60px;
+    padding: 40px;
+    width: 100%;
+    height: 200px;
+    
+}
+.pic {
+    text-align: center;
+    
+    
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    margin: 30px;
+    padding: 30px;
+}
+section{
+    margin: 60px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+main a { 
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    text-decoration: none;
+}
+.producto{
+    height: 50px;
+    width: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+}
+.sobreNosotros{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.sobreNosotros2{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.section {
+    display: flex;
+    justify-content: center;
+}
+.section2 { 
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+label{
+    margin: 30px;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+    padding: 50px;
+    padding-top: 120px;
+    background-color:lightgreen;
+    font-size: 30px;
+    text-align: center;
+    
+}
+/* footer {
+    margin-left: 50px;
+    border: #feacf7;
+} */
+.visitanos {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.mapa{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.youtube{
+    text-align: center;
+}
+.nombre{
+    margin: 10px;
+    font: bold;
+}
+.email{
+    margin: 10px;
+}
+.numero{
+    margin: 10px;
+}
+.contra{
+    margin: 10px;
+}
+.texto{
+    margin: 10px;
+}
+.boton{
+    margin: 10px;
+    margin-left: 30px;
+    background-color: aliceblue;
+}
+.redes {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.num{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    
+}
+.jaja {
+    margin: 20px;
+}
+.lol{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+    grid-area: footer ;
+}
