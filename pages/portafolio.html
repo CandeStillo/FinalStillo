@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dermatología</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/logo.jpg">
 </head>
+
 <body>
     <header>
         <div class="menu">
-            <img src="../img/logo.jpg" alt="logo">
-        
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="./portafolio.html">Portafolio</a></li>
-                <li><a href="../pages/blog.html">Blog</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
+            <!-- <img src="../img/logo.jpg" alt="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/servicios.html">Servicios</a></li>
+                    <li><a href="./portafolio.html">Portafolio</a></li>
+                    <li><a href="../pages/blog.html">Blog</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav> -->
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="../index.html">Inicio</a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/servicios.html">Servicios</a>
+                            </li>
+                            <li><a href="./portafolio.html">Portafolio</a></li>
+                            <li><a href="../pages/blog.html">Blog</a></li>
+                            <li><a href="../pages/contacto.html">Contacto</a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
     </header>
     <main id="producto">
-        <h1>Nuestros precios</h1>
-        <div class="producto1">
-            <img src="../img/producto 1.jpg" alt="Producto">
-        </div>
-        <p>$500</p>
-        <div class="producto2">
-            <img src="../img/producto 2.jpg.jpg" alt="Producto">
-        </div>
-        <p>$1000</p>
-        <div class="producto3">
-            <img src="../img/producto 3.jpg" alt="Producto">
-        </div>
-        <p>$300</p>
+        <h1 class="fondo1">Nuestros precios</h1>
+        <section class="catalogo">
+            <div class="try">
+                <div class="producto1">
+                </div>
+                <p>$500</p>
+            </div>
+            <div class="try2">
+                <div class="producto2">
+                </div>
+                <p>$1000</p>
+            </div>
+            <div class="try3">
+                <div class="producto3">
+                </div>
+                <p>$300</p>
+            </div>
+
+        </section>
     </main>
+    <footer>
+        <p>Nuestras Redes:</p>
+        <section class="igfc">
+            <div class="redes4"></div>
+            <div class="redes5"></div>
+            <div class="redes6"></div>
+        </section>
+    </footer>
 </body>
+
 </html>
