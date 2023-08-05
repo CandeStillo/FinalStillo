@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "section section section section"
+    "footer footer footer footer"
+    ;
+    
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto
+
+}
+/* body section{
+    justify-self: center;
+} */
+/* #bodyServicios{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer ";
+} */ 

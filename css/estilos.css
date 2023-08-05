@@ -1,24 +1,1246 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(4, 150px);
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+main .fondo1 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-image: url(../img/fondo5.jpg);
+  background-size: cover;
+  background-position: 0%;
+  /* background-repeat: no-repeat; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  height: 200px;
+}
+main .fondo2 {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-image: url(../img/pexels-angela-roma-7480297.jpg);
+  background-size: cover;
+  background-position: 0%;
+  /* background-repeat: no-repeat; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  height: 200px;
+  width: 100%;
+}
+main .fondo3 {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-image: url(../img/fondo2.jpeg);
+  background-size: cover;
+  background-position: 0%;
+  /* background-repeat: no-repeat; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  height: 200px;
+  width: 100%;
+}
+main .fondo {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-position: 0%;
+  /* background-repeat: no-repeat; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  height: 200px;
+  width: 100%;
+}
+main .fondo5 {
+  background-image: url(../img/fondo4.jpg);
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-size: cover;
+  background-position: 0%;
+  /* background-repeat: no-repeat; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  height: 200px;
+  width: 100%;
+}
+main h1 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  display: table;
+  margin-top: 50px;
+  background-color: aliceblue;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 60px;
+  padding: 40px;
+  width: 100%;
+  height: 200px;
+}
+main .producto {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+main .lol {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main div img {
+  height: 50px;
+  width: 60px;
+  height: 500px;
+  width: 800px;
+  margin: 40px;
+  /* margin-left: 350px; */
+  text-align: center;
+}
+main div img .jaja {
+  margin: 20px;
+}
+main div a {
+  display: flex;
+  /* justify-content: flex-end; */
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+main div p {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  background-color: aqua;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+main div .sobreNosotros {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
+}
+main div .sobreNosotros2 {
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main a {
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  text-decoration: none;
+}
+main h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+main h2 .datos {
+  background-color: lightgreen;
+}
+main .h22 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: azure;
+}
+main h3 {
+  font-family: "Quicksand", sans-serif;
+  height: fit-content;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightgreen;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+main section {
+  margin: 60px;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: flex;
+  grid-area: section;
+  column-gap: 30px;
+}
+main section h2 {
+  display: flex;
+}
+main section .caja1 {
+  background-color: rgb(214, 172, 254);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 900px;
+  padding: 20px;
+  /* margin-left: 210px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  justify-items: center;
+  /* float: left; */
+}
+main section .caja4 {
+  background-image: url(../img/galeria3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .caja4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+main section .caja5 {
+  background-image: url(../img/galeria2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .caja5:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+main section .caja6 {
+  background-image: url(../img/galeria.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .caja6:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+main section .section {
+  display: flex;
+  justify-content: center;
+}
+main section .section2 {
+  display: flex;
+  justify-content: center;
+}
+main section .mapa {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main section form {
+  background-color: aliceblue;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 0;
+  text-align: right;
+  justify-content: center;
+  display: flex;
+}
+main section form .lara {
+  flex-direction: row;
+}
+main section form .lara .nombre {
+  margin: 10px;
+  text-align: center;
+}
+main section form .lara .email {
+  margin: 10px;
+  text-align: center;
+}
+main section form .lara2 {
+  display: flex;
+  flex-direction: row;
+}
+main section form .lara2 .numero {
+  margin: 10px;
+  text-align: center;
+}
+main section form .lara2 .contra {
+  margin: 10px;
+  text-align: center;
+}
+main section form .texto {
+  margin: 10px;
+  text-align: center;
+}
+main section form .boton {
+  margin: 10px;
+  margin-left: 30px;
+  color: purple;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+main section form .boton:hover {
+  background-color: purple;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+main section form button {
+  color: purple;
+  background-color: rgba(194, 202, 255, 0.9176470588);
+  border-radius: 4%;
+  border: none;
+}
+main section .redes1 {
+  background-image: url(../img/insta.png);
+  background-size: cover;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  /* display: flex;
+  justify-content: center;
+  */
+}
+main section .redes2 {
+  background-image: url(../img/face.png);
+  background-size: cover;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+main section .redes3 {
+  background-image: url(../img/twitter.png);
+  background-size: cover;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+main section .producto1 {
+  background-image: url(../img/producto\ 1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .producto2 {
+  background-image: url(../img/producto\ 2.jpg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .producto3 {
+  background-image: url(../img/producto\ 3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .producto4 {
+  background-image: url(../img/producto4.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .producto5 {
+  background-image: url(../img/producto5.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .producto6 {
+  background-image: url(../img/producto6.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section .try {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section .try2 {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section .try3 {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section .try4 {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section .try5 {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section .try6 {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgba(196, 222, 252, 0.937254902);
+  padding: 10px;
+  border-radius: 3px;
+}
+main section div p {
+  background-color: transparent;
+  height: fit-content;
+  justify-content: center;
+}
+main section div .producto1 {
+  background-image: url(../img/producto\ 1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section div .producto2 {
+  background-image: url(../img/producto\ 2.jpg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section div .producto3 {
+  background-image: url(../img/producto\ 3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+main section div .num {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+}
+main section div .try4 {
+  display: inline-block;
+  margin: 20px;
+}
+main section div .try5 {
+  display: inline-block;
+  margin: 20px;
+}
+main section div .try6 {
+  display: inline-block;
+  margin: 20px;
+}
+main section div label {
+  margin: 30px;
+}
+main section div .youtube {
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+}
+main section .principal {
+  display: grid;
+  grid-template-columns: repeat(3, 420px);
+  grid-template-rows: repeat(1, 200px);
+  justify-items: center;
+  align-items: center;
+}
+main section .catalogo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  margin-top: 10px;
+}
+main section .masInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+main .imagenYvideo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  background-color: #EBE8E8;
+}
+main .carousel-item {
+  transition: all 0.5s;
+}
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+section {
+  display: grid;
+  grid-area: section;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(3, 350px);
+  margin: 60px;
+  column-gap: 30px;
+  justify-content: center;
+  flex-direction: row;
+  display: inline-block;
 }
-body{
-    background-color: whitesmoke;
-    font-family: 'Quicksand', sans-serif;
+section .caja4 {
+  background-image: url(../img/galeria3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+section .caja4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja5 {
+  background-image: url(../img/galeria2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+section .caja5:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja6 {
+  background-image: url(../img/galeria.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+   margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+section .caja6:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja7 {
+  background-image: url(../img/equipo1.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: azure;
+  /* float: left; */
+  transition: 0.5s;
+  position: relative;
+}
+section .caja7:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja7:hover .content {
+  top: 0;
+}
+section .caja8 {
+  background-image: url(../img/equipo2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+  position: relative;
+}
+section .caja8:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja8:hover .content2 {
+  top: 0;
+}
+section .caja9 {
+  background-image: url(../img/equipo3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-left: 100px;
+  margin-top: 100px;
+   margin-bottom: 100px; */
+  border: 4px purple;
+  border-radius: 10px;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+  position: relative;
+}
+section .caja9:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+section .caja9:hover .content3 {
+  top: 0;
+}
+section .content {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: justify;
+  height: 100%;
+  color: #EBE8E8;
+  transition: all 0.5s;
+}
+section .content h3 {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid #808080;
+  padding: 20px 10px;
+}
+section .content p {
+  padding: 5px 20px 15px 20px;
+  border-bottom: 1px solid #808080;
+}
+section .content2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: justify;
+  height: 100%;
+  color: #EBE8E8;
+  transition: all 0.5s;
+}
+section .content2 h3 {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid #808080;
+  padding: 20px 10px;
+}
+section .content2 p {
+  padding: 5px 20px 15px 20px;
+  border-bottom: 1px solid #808080;
+}
+section .content3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: justify;
+  height: 100%;
+  color: #EBE8E8;
+  transition: all 0.5s;
+}
+section .content3 h3 {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid #808080;
+  padding: 20px 10px;
+}
+section .content3 p {
+  padding: 5px 20px 15px 20px;
+  border-bottom: 1px solid #808080;
+}
+section h2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #EBE8E8;
+  height: fit-content;
+  padding: 10px;
+  font-weight: bold;
+}
+section h3 {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 3px solid purple;
+}
+section .h22 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: azure;
+}
+section .tratamiento {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+section div {
+  display: inline-block;
+  display: flex;
+  column-gap: 30px;
+  flex-direction: column;
+}
+section div p {
+  margin: 10px;
+}
+section div .icono {
+  height: 40px;
+  width: 40px;
+  background-color: none;
+}
+section .Subir {
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  flex-direction: flex-end;
+}
+section .molesto {
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+section .principal2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+section .equipo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+footer {
+  margin: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  height: 200px;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-end;
+  grid-area: footer;
+}
+footer p {
+  background-color: aliceblue;
+  height: fit-content;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+footer section {
+  display: flex;
+  justify-items: center;
+}
+footer section .redes4 {
+  background-image: url(../img/insta.png);
+  background-size: cover;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  /* display: flex;
+  justify-content: center;
+  */
+  transition: 0.5s;
+}
+footer section .redes4:hover {
+  transform: scale(1.1);
+}
+footer section .redes5 {
+  background-image: url(../img/face.png);
+  background-size: cover;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+footer section .redes5:hover {
+  transform: scale(1.1);
+}
+footer section .redes6 {
+  background-image: url(../img/twitter.png);
+  background-size: cover;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: flex-end;
+  transition: 0.5s;
+}
+footer section .redes6:hover {
+  transform: scale(1.1);
+}
+footer .igfc {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* MOVIL */
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  * {
+    font-size: 45px;
+  }
+  body {
+    grid-template-areas: "header header" "main" "section" "footer";
+  }
+  header {
+    font-size: 40px;
+  }
+  nav {
+    height: 150px;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(194, 202, 255, 0.9176470588);
+  }
+  .navbar-collapse {
+    background-color: rgba(194, 202, 255, 0.9176470588);
+  }
+  header div {
+    align-content: center;
+    justify-content: center;
+  }
+  header div img {
+    width: 100px;
+    height: 70px;
+    float: left;
+    padding: 8px;
+    align-items: center;
+    justify-self: center;
+  }
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-area: main;
     display: flex;
-    display: grid;
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "section section section section"
-    "footer footer footer footer"
-    ;
-    
+  }
+  main .catalogo {
+    display: flex;
+    flex-direction: column;
+  }
+  main section {
+    grid-template-columns: 1fr;
+  }
+  main .fondo {
+    font-size: 70px;
+  }
+  main .caja1 {
+    width: 400px;
+    height: 700px;
+  }
+  main .caja1 p {
+    font-size: 50px;
+  }
+  .fondo {
+    display: flex;
+    font-size: 50px;
+    padding: 40px;
+    height: 200px;
+    width: 100%;
+  }
+  .Subir {
+    font-size: 60px;
+  }
+  footer {
+    height: 300px;
+    display: flex;
+    flex-direction: flex-end;
+  }
+  footer p {
+    font-size: 60px;
+  }
+  footer .redes4 {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    /* display: flex;
+    justify-content: center;
+    */
+  }
+  footer .redes5 {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .redes6 {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
+header {
+  background-color: rgba(194, 202, 255, 0.9176470588);
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
+  grid-area: header;
+}
+header div nav {
+  background-color: rgba(194, 202, 255, 0.9176470588);
+  /* display: flex;
+  justify-content: flex-end; */
+  flex-wrap: wrap;
+}
+header div nav ul li {
+  list-style: none;
+  margin-left: 25px;
+  padding: 12px 0;
+  float: left;
+}
+header div nav ul a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+header div img {
+  width: 70px;
+  height: 50px;
+  float: left;
+  padding: 8px;
+}
+header .menu {
+  /* width: 1000px; */
+  margin: 0 auto;
+}
+header .btn {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+header .btn:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  display: grid;
+  grid-template-areas: "header header header header" "main main main main" "section section section section" "footer footer footer footer";
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* body section{
     justify-self: center;
 } */
@@ -28,771 +1250,6 @@ body{
     "header"
     "main"
     "footer ";
-} */ 
-
-header{
-    background-color: #c2caffea;
-    width: 100%;
-    clear: both;
-    content: '';
-    display: table;
-    grid-area: header;
-}
-main{
-    display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(4, 150px);
-    grid-area: main;
-}
-.menu {
-    /* width: 1000px; */
-    margin: 0 auto;
-}
-header div nav{
-    background-color: #c2caffea;
-}
-header div img{
-    width: 70px;
-    height: 50px;
-    float: left;
-    padding: 8px;
-    
-}
-.btn{
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
-}
-.btn:hover{
-    background-color: purple;
-    cursor: pointer;
-}
-nav{
-    background-color: #c2caffea;
-    /* display: flex;
-    justify-content: flex-end; */
-    flex-wrap: wrap;
-   
-}
-nav ul li {
-    list-style: none;
-    margin-left: 25px;
-    padding: 12px 0;
-    float: left;
-    
-}
-nav ul li a{
-    text-decoration: none;
-    color: #444;
-    font-weight: bold;
-}
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    
-}
-.fondo{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: flex-end;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-position: 0%;   
-    /* background-repeat: no-repeat; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 60px;
-    padding: 40px;
-    height: 200px;
-    width: 100%;
-}
-.fondo1{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: flex-end;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-image: url(../img/pexels-monstera-6621152.jpg);
-    background-size: cover;
-    background-position: 0%;   
-    /* background-repeat: no-repeat; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 60px;
-    padding: 40px;
-    height: 200px;
-    width: 100%;
-}
-.fondo2{
-    font-family: 'Quicksand', sans-serif;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: flex-end;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-image: url(../img/pexels-angela-roma-7480297.jpg);
-    background-size: cover;
-    background-position: 0%;   
-    /* background-repeat: no-repeat; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 60px;
-    padding: 40px;
-    height: 200px;
-    width: 100%;
-}
-.fondo3{
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: flex-end;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-image: url(../img/fondo2.jpeg);
-    background-size: cover;
-    background-position: 0%;   
-    /* background-repeat: no-repeat; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 60px;
-    padding: 40px;
-    height: 200px;
-    width: 100%;
-}
-main div img{
-    height: 50px;
-    width: 60px;
-    
-}
-.principal{
-    display: grid;
-    grid-template-columns: repeat(3, 420px);
-    grid-template-rows: repeat(1, 200px);
-    justify-items: center;
-    align-items: center;
-}
-
-.caja1 {
-    background-color: rgb(214, 172, 254);
-    display: flex;
-    flex-wrap: nowrap;    
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    /* margin-left: 210px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px dotted purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    
-    
-}
-.caja2 {
-    background-color: rgb(214, 172, 254);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px dotted purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    
-}
-.caja3{
-    background-color: rgb(214, 172, 254);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px dotted purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    
-   
-}
-.caja4{
-    background-image: url(../img/galeria3.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-   
-}
-.caja4:hover{
-    transform:scale(1.1);
-    cursor: pointer;
-}
-.caja5{
-    background-image: url(../img/galeria2.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-   
-}
-.caja5:hover{
-    transform:scale(1.1);
-    cursor: pointer;
-}
-.caja6{
-    background-image: url(../img/galeria.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px  purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-    
-}
-.caja6:hover{
-    transform:scale(1.1);
-    cursor: pointer;
-}
-main div a{
-    display: flex;
-    /* justify-content: flex-end; */
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-main section{
-    margin: 60px;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-main section div p{
-    background-color: transparent;
-    height: fit-content;
-}
-.imagenYvideo{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-main div img{
-    height: 500px;
-    width: 800px;
-    margin: 40px;
-    /* margin-left: 350px; */
-    border-radius: 20px;
-    text-align: center;
-    
-}
-h1{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    display: table;
-    margin-top: 50px;
-    background-color: aliceblue;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 60px;
-    padding: 40px;
-    width: 100%;
-    height: 200px;
-    
-}
-.Subir{
-    background-color: aliceblue;
-    border-radius: 10%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 20px;
-}
-.pic {
-    text-align: center;
-    margin-top: 38px;
-    
-    
-}
-h2{
-    font-family: 'Quicksand', sans-serif;
-    margin: 30px;
-    padding: 30px;
-}
-.h22{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: azure;
-}
-main a { 
-    text-align: center;
-    font-size: 30px;
-    font-family: inherit;
-    text-decoration: none;
-}
-
-.producto{
-    height: 50px;
-    width: 50px;
-    margin: 20px;
-}
-.catalogo{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-}
-.producto1{
-    background-image: url(../img/producto\ 1.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-}
-.producto2{
-    background-image: url(../img/producto\ 2.jpg.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-}
-.producto3{
-    background-image: url(../img/producto\ 3.jpg);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    /* margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    border: 4px purple;
-    border-radius: 10px;
-    overflow: hidden;
-    /* float: left; */
-    transition: .5s;
-}
-
-p{
-    display: inline-block;
-    text-align: center;
-    font-size: 20px;
-    background-color: aqua;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-}
-.try{
-    display: inline-block;
-    margin: 20px;
-}
-.try2{
-    display: inline-block;
-    margin: 20px;
-}
-.try3{
-    display: inline-block;
-    margin: 20px;
-}
-.sobreNosotros{
-    text-align: center;
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    margin: 50px;
-    padding: 50px;
-    border-radius: 10px;
-}
-
-.sobreNosotros2{
-    text-align: center;
-    display: flex;
-    justify-content: right;
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    margin: 50px;
-    padding: 50px;
-    overflow: hidden;
-    border-radius: 10px;
-    
-}
-.section {
-    display: flex;
-    justify-content: center;
-}
-.section2 { 
-    display: flex;
-    justify-content: center;
-}
-.masInfo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-}
-h2{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    /* background-color: aqua; */
-}
-label{
-    margin: 30px;
-}
-h3 {
-    font-family: 'Quicksand', sans-serif;
-    height: fit-content;
-    margin: 20px;
-    padding: 10px;
-    background-color:lightgreen;
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-    
-}
-/* footer {
-    margin-left: 50px;
-    border: #feacf7;
 } */
-.visitanos {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    margin: 50px;
-}
-.mapa{
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.youtube{
-    text-align: center;
-    margin: 20px;
-    padding: 5px;
-}
-.formulario{
-    justify-content: center;
-}
-.nombre{
-    margin: 10px;
-    font: bold;
-}
-.email{
-    margin: 10px;
-}
-.numero{
-    margin: 10px;
-}
-.contra{
-    margin: 10px;
-}
-.texto{
-    margin: 10px;
-}
-.boton{
-    margin: 10px;
-    margin-left: 30px;
-    background-color: aliceblue;
-}
-.lol{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.redes1 {
-    background-image: url(../img/insta.png);
-    background-size: cover;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    /* display: flex;
-    justify-content: center;
-    */
-}
-.redes2 {
-    background-image: url(../img/face.png);
-    background-size: cover;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    
-}
-.redes3 {
-    background-image: url(../img/twitter.png);
-    background-size: cover;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    
-}
-.redes4 {
-    background-image: url(../img/insta.png);
-    background-size: cover;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
-    /* display: flex;
-    justify-content: center;
-    */
-}
-.redes5 {
-    background-image: url(../img/face.png);
-    background-size: cover;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    
-}
-.redes6 {
-    background-image: url(../img/twitter.png);
-    background-size: cover;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.num{
-    display: flex;
-    justify-content: center;
-    background-color: pink;
-    
-}
-.jaja {
-    margin: 20px;
-}
 
-footer{
-    margin: 0px;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    height: 200px;
-    padding: 10px;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: flex-end;
-    grid-area: footer ;
-
-}
-footer p{
-    background-color: aliceblue;
-    height: fit-content;
-    margin-top: 20px;
-}
-footer section {
-    display: flex;
-    justify-items: center;
-}
-.igfc{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding: 5px;
-}
-/* MOVIL */
-@media (min-width:200px) and (max-width:430px){
-    *{
-        font-size: 45px;
-    }
-    body{
-        grid-template-areas: 
-        "header header"
-        "main"
-        "section" 
-        "footer"
-        ;
-    }
-    header{
-        font-size: 40px;
-    }
-    nav{
-        height: 150px;
-        align-items: center;
-        margin: auto;
-        background-color: #c2caffea;
-        
-    }
-    .navbar-collapse{
-        background-color: #c2caffea;
-    }
-    header div{
-        align-content: center;
-        justify-content: center;
-    }
-    header div img{
-        width: 100px;
-        height: 80px;
-        float: left;
-        padding: 8px;
-        align-items: center;
-        justify-self: center;
-        
-    }
-    main{                              
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid-area: main;
-    }
-    main section{
-        grid-template-columns: 1fr;
-
-
-    }
-    .fondo{
-        display: flex;
-        font-size: 50px;
-        padding: 40px;
-        height: 200px;
-        width: 100%;
-    }
-    .Subir{
-        font-size: 60px;
-    }
-    footer{
-        height: 300px;
-        display: flex;
-        flex-direction: flex-end;
-    }
-    footer p{
-        font-size: 60px;
-    }
-    .redes4 {
-        margin: 10px;
-        height: 50px;
-        width: 50px;
-        /* display: flex;
-        justify-content: center;
-        */
-    }
-    .redes5 {
-        margin: 10px;
-        height: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        
-    }
-    .redes6 {
-        margin: 10px;
-        height: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: flex-end;
-        
-    }
-    
-}
+/*# sourceMappingURL=estilos.css.map */

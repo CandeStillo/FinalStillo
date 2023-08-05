@@ -1,0 +1,79 @@
+footer{
+    // display: grid;
+    margin: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-end;
+    grid-area: footer ;
+    p{
+        background-color: aliceblue;
+        height: fit-content;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        justify-items: center;
+            .redes4 {
+                background-image: url(../img/insta.png);
+                background-size: cover;
+                margin: 10px;
+                height: 30px;
+                width: 30px;
+                /* display: flex;
+                justify-content: center;
+                */
+                transition: .5s;
+            }
+            .redes4:hover{
+                transform: scale(1.1);
+            }
+            .redes5 {
+                background-image: url(../img/face.png);
+                background-size: cover;
+                margin: 10px;
+                height: 30px;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                transition: .5s;
+                
+            }
+            .redes5:hover{
+                transform: scale(1.1);
+            }
+            .redes6 {
+                background-image: url(../img/twitter.png);
+                background-size: cover;
+                margin: 10px;
+                height: 30px;
+                width: 30px;
+                display: flex;
+                justify-content: flex-end;
+                transition: .5s;
+            }
+            .redes6:hover{
+                transform: scale(1.1);
+            }
+                
+
+
+        }
+
+    .igfc{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 5px;
+    }
+
+}
